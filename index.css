@@ -8,14 +8,17 @@
 {
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 }
 header
 {
-    position: fixed;
     height: 110px;
     width: 100%;
-    border: 2px #BDB5D5 solid;
+    border: 2px #957C3D solid;
     background-color: #3A1845;
+    position: fixed;
+    z-index: 1;
+
 }
 #rm
 {
@@ -44,7 +47,7 @@ header
 
 .l1 a:hover {
     text-decoration: underline;
-    background-color: #C9A753;
+    background-color: #957C3D;
     color: #3A1845;
     padding: 2px;
     border-radius: 8px;
@@ -61,15 +64,13 @@ header
 {
     margin: 0px;
     padding-top: 0px;
-    width: 1906px;
+    width: 100%;
 }
 video
 {
-width: 1906px;
-}
-video :hover
-{
-    cursor: none;
+width: 100%;
+border: #957C3D 2px solid;
+
 }
 /* main*/
 main
@@ -81,7 +82,7 @@ main
 }
 aside
 {
-    width: 300px;
+    width: 50%;
     height: 1000px;
     background-color:#BDB5D5;
 }
@@ -96,7 +97,6 @@ summary {
 }
 
 table {
-    width: 300px;
     margin-top: 10px;
     background-color: #3A1845;
     color: #957C3D;
@@ -125,7 +125,7 @@ td a:hover {
 }
 
 table tr:hover {
-    background-color: #523C5C;
+    background-color: #3A1845;
 }
 article
 {
@@ -134,14 +134,14 @@ article
         column-gap: 30px;
         column-rule: 3px solid #3A1845;
         margin: 10px solid #BDB5D5;
-    width: 1700px;
+    width: 100%;
     background-color:  #BDB5D5;
 }
 #story
 {
+    color: #957c3d ;
     padding-top: 20px;
     font-size: 21px;
-    height: 310px;
     background-color: #3A1845;
     border: #957C3D 2px solid;
     border-radius: 25px;
@@ -170,11 +170,18 @@ article
     border: 2px solid #957C3D;
 
 }
+.kabb
+{
+    text-align: center;
+    color: #957C3D;
+    background-color: #3A1845;
+}
 .kab
 {
     height: 350px;
     width: 600px;
     margin-left: 5px;
+    border: 2px solid #957C3D;
 }
 .para
 {
@@ -186,8 +193,8 @@ article
 }
 #cars
 {
-    height: 5600px;
-    width: 1906px;
+    height: 6000px;
+    width: 100%;
     background-color: #BDB5D5;
     margin: 5px solid #BDB5D5;
     border: #3A1845 2px solid;
@@ -208,8 +215,8 @@ article
 }
 .cars
 {
-    border: #3A1845 2px solid;
     display: flex;
+    width: 100%;
     justify-content: space-evenly;
 }
 .l
@@ -222,22 +229,23 @@ article
 {
     background-color: #3A1845;
      height: 600px;
-    width: 900px;
     margin-left: 5px;
     border: 2px solid #957C3D;
 }
 .lll
 {
+    color: #957C3D;
     font-size: 21px;
     padding-left: 15px;
     padding-bottom: 15px;
     padding-right: 15px;
+    text-align: justify;
 
 }
 /* Footer */
 #contact {
     background-color:  #BDB5D5;
-    width: 1906px;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
