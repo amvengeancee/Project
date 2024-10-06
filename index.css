@@ -12,13 +12,9 @@
 }
 header
 {
-    height: 110px;
     width: 100%;
     border: 2px #957C3D solid;
     background-color: #3A1845;
-    position: fixed;
-    z-index: 1;
-
 }
 #rm
 {
@@ -30,13 +26,15 @@ header
 .ol {  
     background-color: #3A1845;
     color: #957C3D; 
+    display: flex;
+    justify-content: space-evenly;
+
 }
 
 .ol .l1 {
     list-style-type: none;
     display: inline-block; 
     font-size: 20px;
-    margin-left: 25.5px;
 }
 
 .l1 a {
@@ -62,8 +60,6 @@ header
 /*div*/
 #div
 {
-    margin: 0px;
-    padding-top: 0px;
     width: 100%;
 }
 video
@@ -75,20 +71,18 @@ border: #957C3D 2px solid;
 /* main*/
 main
 {
-    height: 1000px;
     width: 100%;
     border: 2px #BDB5D5 solid;
     display: flex;
 }
 aside
 {
-    width: 50%;
-    height: 1000px;
+    width:20%;
     background-color:#BDB5D5;
 }
 details
 {
-    height: 960px;
+height: 960px;
 }
 
 summary {
@@ -97,14 +91,12 @@ summary {
 }
 
 table {
-    margin-top: 10px;
     background-color: #3A1845;
     color: #957C3D;
 }
 
 table th td {
     border: 2px solid #957C3D;
-    padding: 10px;
     text-align: center;
     height: 200px;
 }
@@ -141,7 +133,7 @@ article
 {
     color: #957c3d ;
     padding-top: 20px;
-    font-size: 21px;
+    font-size: 20px;
     background-color: #3A1845;
     border: #957C3D 2px solid;
     border-radius: 25px;
@@ -158,8 +150,7 @@ article
 }
 .kabali
 {
-    height: 300px;
-    width: 500px;
+    width:100%;
     margin-left: 5px;
 }
 .kaba
@@ -172,6 +163,7 @@ article
 }
 .kabb
 {
+
     text-align: center;
     color: #957C3D;
     background-color: #3A1845;
@@ -179,22 +171,22 @@ article
 .kab
 {
     height: 350px;
-    width: 600px;
-    margin-left: 5px;
+    width:100%;
     border: 2px solid #957C3D;
 }
 .para
 {
     margin: 20px;
     color: #3A1845;
-    font-size: 21px;
+    font-size: 20px;
     text-align: justify;
 
 }
 #cars
 {
-    height: 6060px;
+    height:100%;
     width: 100%;
+    text-align: justify;
     background-color: #BDB5D5;
     margin: 5px solid #BDB5D5;
     border: #3A1845 2px solid;
@@ -203,7 +195,6 @@ article
 {
     background-color: #3A1845;
     color: #957C3D;
-    padding: 5px;
     text-align: center;
     border-radius: 25px;
     margin: 10px solid #bdb5d5;
@@ -221,23 +212,20 @@ article
 }
 .l
 {
-    padding: 10px;
-    padding-bottom: 10px;
     list-style-type: disc;
 }
 .ll
 {
     background-color: #3A1845;
-     height: 600px;
-    margin-left: 5px;
+    height: 600px;
     border: 2px solid #957C3D;
 }
 .lll
 {
     color: #957C3D;
-    font-size: 21px;
+    font-size: 18px;
     padding-left: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
     padding-right: 15px;
     text-align: justify;
 
